@@ -11,10 +11,10 @@ spec:
           command: ["java","-jar","/app.jar"]
           args: ["--spring.config.location=file:/config/application.yml"]
           volumeMounts:
-          - mountPath: /mnt/82022894
+          - mountPath: /mnt/template-for-aa
             name: "82022894-volume"
             readOnly: false
-            subPath: 82022894
+            subPath: template-for-aa
           - mountPath: /config
             name: application-properties
             readOnly: true
