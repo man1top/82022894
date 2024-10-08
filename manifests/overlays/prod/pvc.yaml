@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: ce-aa-pvc
+  name: ce-aa-ng-pvc
 spec:
   accessModes:
     - ReadWriteMany
